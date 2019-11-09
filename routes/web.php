@@ -16,4 +16,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('/page1', 'Page1Controller@show')->name('page1');
+Route::get('/page1', 'Page1Controller@show')->middleware('auth')->name('page1');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
