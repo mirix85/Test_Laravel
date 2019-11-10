@@ -15,9 +15,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-Route::get('/page1', 'Page1Controller@show')->middleware('auth')->name('page1');
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/page1', 'Page1Controller@show')->name('page1');
+
+Route::match(['get', 'post'], '/edit_blog_post', function () {
+    return view('edit_blog_post');
+})->middleware('auth')->name('edit_blog_post');
+
+Route::any('/blog', 'BlogController@edit');
