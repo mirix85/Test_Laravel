@@ -26,3 +26,5 @@ Route::match(['get', 'post'], '/edit_blog_post', function () {
 })->middleware('auth')->name('edit_blog_post');
 
 Route::any('/blog', 'BlogController@edit');
+
+Route::get('/blog_list', 'BlogController@show')->name('blog');

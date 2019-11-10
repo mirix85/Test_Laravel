@@ -8,7 +8,12 @@
     <title>Blog</title>
 </head>
 <body>
-   <p><h2>{{ $name }}</h2></p>
-   <p>{{ $text }}</p>
+    @foreach($select as $post)
+       <p><h2>{{ $post->name }}</h2></p>
+       <p>{{ $post->text }}</p>
+       <br>
+       <p>----------------------------------------------------------------------------------------------</p>
+       <br>
+    @endforeach
 </body>
 </html>

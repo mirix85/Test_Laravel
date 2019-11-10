@@ -94,7 +94,8 @@
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                     <a href={{ route('page1') }}>Page 1</a>
-                    <a href="{{ route('edit_blog_post') }}">Blog</a>
+                    <a href="{{ route('edit_blog_post') }}">Edit Blog</a>
+                    <a href="{{ route('blog') }}">Blog</a>
                 </div>
             </div>
         </div>
