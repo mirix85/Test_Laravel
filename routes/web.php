@@ -28,3 +28,7 @@ Route::match(['get', 'post'], '/edit_blog_post', function () {
 Route::any('/blog', 'BlogController@edit');
 
 Route::get('/blog_list', 'BlogController@show')->name('blog');
+
+Route::get('/social', function () {
+    return view('social');
+})->name('social');

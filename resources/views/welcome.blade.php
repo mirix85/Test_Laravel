@@ -88,6 +88,7 @@
                     <a href={{ route('page1') }}>Page 1</a>
                     <a href="{{ route('edit_blog_post') }}">Edit Blog</a>
                     <a href="{{ route('blog') }}">Blog</a>
+                    <a href="{{ route('social') }}">Social</a>
                 </div>
             </div>
         </div>
