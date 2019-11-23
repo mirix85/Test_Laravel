@@ -16,7 +16,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="header d-flex align-items-center justify-content-center">
-                    <p>Hello !</p>
+                    <p>header...</p>
                 </div>
             </div>
         </div>
@@ -26,7 +26,17 @@
         <div class="container">
             <div class="row">
                 <div class="content-left col-3">
+                    <div class="d-flex justify-content-center">
+                        <div class="avatar">
+                            @isset($path)
+                                <img src="{{ asset('/storage/'.$path) }}">
+                            @endisset
+                        </div>
 
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <a href="{{ route('avatar_upload') }}">Изменить</a>
+                    </div>
                 </div>
                 <div class="content-right col-9">
 

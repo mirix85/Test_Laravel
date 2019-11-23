@@ -12,6 +12,7 @@ body {
     width: 100%;
     height: 75px;
     background: #3490dc;
+    box-shadow: 0 0 10px;
 }
 
 .header p {
@@ -24,17 +25,31 @@ body {
 }
 
 .content-left {
-    border: 1px solid #6574cd;
     height: 300px;
+    margin-top: 10px;
+    box-shadow: 0 0 5px;
+}
+
+.avatar {
+    width: 200px;
+    height: 250px;
+    border: 1px solid red;
+}
+
+.avatar img {
+    width: 200px;
+    height: 250px;
 }
 
 .content-right {
-    border: 1px solid #6574cd;
     height: 600px;
+    margin-top: 10px;
+    box-shadow: 0 0 5px;
 }
 
 .footer {
     width: 100%;
     height: 75px;
     background: #3490dc;
+    box-shadow: 0 0 10px;
 }

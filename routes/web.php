@@ -32,3 +32,6 @@ Route::get('/blog_list', 'BlogController@show')->name('blog');
 Route::get('/social', function () {
     return view('social');
 })->name('social');
+
+Route::get('/avatar_upload', 'AvatarController@show')->name('avatar_upload');
+Route::post('/avatar_upload', 'AvatarController@avatarUpload');
