@@ -11,7 +11,7 @@
     <form action="/avatar_upload" method="post" enctype="multipart/form-data">
         @csrf
         <input type="file" name="image">
-        <button type="submit">Изменить</button>
+        <button type="submit">Сохранить</button>
     </form>
 </body>
 </html>
