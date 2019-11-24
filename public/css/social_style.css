@@ -8,16 +8,39 @@ body {
     flex-direction: column;
 }
 
-.header {
+#header {
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 75px;
     background: #3490dc;
     box-shadow: 0 0 10px;
 }
 
-.header p {
-    font-size: 25px;
+.header h1 {
+    color: #fff;
+    font-size: 35px;
     font-weight: bold;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.header p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.header li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
 }
 
 #content {
@@ -27,7 +50,7 @@ body {
 .content-left {
     height: 300px;
     margin-top: 10px;
-    box-shadow: 0 0 5px;
+    /*box-shadow: 0 0 5px;*/
 }
 
 .avatar {
@@ -44,7 +67,7 @@ body {
 .content-right {
     height: 600px;
     margin-top: 10px;
-    box-shadow: 0 0 5px;
+    /*box-shadow: 0 0 5px;*/
 }
 
 .footer {

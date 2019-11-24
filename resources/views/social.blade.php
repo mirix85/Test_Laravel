@@ -13,13 +13,27 @@
 </head>
 <body>
     <section id="header">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="header d-flex align-items-center justify-content-center">
-                    <p>header...</p>
-                </div>
+        <div class="container">
+            <div class="row header">
+                    <div class="col-3 d-flex align-items-center justify-content-start">
+                        <div>
+                            <h1>VLG</h1>
+                            <p>социальная сеть Волгограда</p>
+                        </div>
+
+                    </div>
+                    <div class="col-9 d-flex align-items-center justify-content-end">
+                        <ul class="nav-menu mb-0">
+                            <li><a href="#">Ссылка 1</a></li>
+                            <li><a href="#">Ссылка 2</a></li>
+                            <li><a href="#">Ссылка 3</a></li>
+                            <li><a href="#">Ссылка 4</a></li>
+                        </ul>
+                    </div>
             </div>
         </div>
+
+
     </section>
 
     <section id="content">

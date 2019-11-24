@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/social_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/social_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/social.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/social.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +167,8 @@
       <workItem from="1573917078731" duration="1301000" />
       <workItem from="1573937815186" duration="60000" />
       <workItem from="1574493905078" duration="489000" />
-      <workItem from="1574515393179" duration="5477000" />
+      <workItem from="1574515393179" duration="6157000" />
+      <workItem from="1574610427665" duration="3634000" />
     </task>
     <servers />
   </component>
