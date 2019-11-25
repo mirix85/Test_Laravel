@@ -27,13 +27,11 @@
                             <li><a href="#">Ссылка 1</a></li>
                             <li><a href="#">Ссылка 2</a></li>
                             <li><a href="#">Ссылка 3</a></li>
-                            <li><a href="#">Ссылка 4</a></li>
+                            <li><a href="#">Выйти</a></li>
                         </ul>
                     </div>
             </div>
         </div>
-
-
     </section>
 
     <section id="content">
@@ -51,9 +49,26 @@
                     <div class="d-flex justify-content-center">
                         <a href="{{ route('avatar_upload') }}">Изменить</a>
                     </div>
+                    <div class="usermenu">
+                        <ul>
+                            <li><a href="#">Моя страница</a></li>
+                            <li><a href="#">Сообщения</a></li>
+                            <li><a href="#">Друзья</a></li>
+                            <li><a href="#">Мои фотографии</a></li>
+                            <li><a href="#">Группы</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="content-right col-9">
-
+                    <div class="fio">
+                        <p>Данные пользователя</p>
+                    </div>
+                    <div class="fotogalery">
+                        <p>Фотогалерея пользователя</p>
+                    </div>
+                    <div class="friendsnews">
+                        <p>Новости друзей</p>
+                    </div>
                 </div>
             </div>
         </div>
