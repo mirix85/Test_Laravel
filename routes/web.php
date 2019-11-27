@@ -33,5 +33,5 @@ Route::get('/social', function () {
     return view('social');
 })->name('social');
 
-Route::get('/avatar_upload', 'AvatarController@show')->name('avatar_upload');
-Route::post('/avatar_upload', 'AvatarController@avatarUpload');
+Route::get('/edit_profile', 'EditProfileController@show')->name('edit_profile');
+Route::post('/edit_profile', 'EditProfileController@edit');

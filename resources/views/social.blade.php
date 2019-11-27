@@ -41,13 +41,13 @@
                     <div class="d-flex justify-content-center">
                         <div class="avatar">
                             @isset($path)
-                                <img src="{{ asset('/storage/'.$path) }}">
+                                <img src="{{ asset('/storage/'.$avatar) }}">
                             @endisset
                         </div>
 
                     </div>
                     <div class="d-flex justify-content-center">
-                        <a href="{{ route('avatar_upload') }}">Изменить</a>
+                        <a href="{{ route('edit_profile') }}">Редактировать профиль</a>
                     </div>
                     <div class="usermenu">
                         <ul>
