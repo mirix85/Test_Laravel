@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
 
 class EditProfileController extends Controller
 {
@@ -18,6 +19,7 @@ class EditProfileController extends Controller
         $birthday = $_POST['birthday'];
         $status = $_POST['status'];
         $img_path = $request->file('image')->store('image_upload', 'public');
+        $userId = Auth::id();
 
         DB::table('users_profiles')->insert(
             [
@@ -26,7 +28,8 @@ class EditProfileController extends Controller
                 'patronymic' => $patronymic,
                 'birthday' => $birthday,
                 'status' => $status,
-                'avatar_img' => $img_path
+                'avatar_img' => $img_path,
+                'user_id' => $userId
             ]
         );
 
