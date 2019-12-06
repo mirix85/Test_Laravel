@@ -29,9 +29,7 @@ Route::any('/blog', 'BlogController@edit');
 
 Route::get('/blog_list', 'BlogController@show')->name('blog');
 
-Route::get('/social', function () {
-    return view('social');
-})->name('social');
+Route::get('/social', 'SocialController@show')->middleware('auth')->name('social');
 
 Route::get('/edit_profile', 'EditProfileController@show')->name('edit_profile');
 Route::post('/edit_profile', 'EditProfileController@edit');

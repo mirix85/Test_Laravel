@@ -40,8 +40,8 @@
                 <div class="content-left col-3">
                     <div class="d-flex justify-content-center">
                         <div class="avatar">
-                            @isset($path)
-                                <img src="{{ asset('/storage/'.$avatar) }}">
+                            @isset($img_path)
+                                <img src="{{ asset('/storage/'.$img_path) }}">
                             @endisset
                         </div>
 
@@ -62,6 +62,21 @@
                 <div class="content-right col-9">
                     <div class="fio">
                         <p>Данные пользователя</p>
+                        @isset($surname)
+                            <p>{{ $surname }}</p>
+                        @endisset
+                        @isset($name)
+                            <p>{{ $name }}</p>
+                        @endisset
+                        @isset($patronymic)
+                            <p>{{ $patronymic }}</p>
+                        @endisset
+                        @isset($birthday)
+                            <p>{{ $birthday }}</p>
+                        @endisset
+                        @isset($status)
+                            <p>{{ $status }}</p>
+                        @endisset
                     </div>
                     <div class="fotogalery">
                         <p>Фотогалерея пользователя</p>

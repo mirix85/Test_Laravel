@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
+use App\UsersProfile;
 
 class EditProfileController extends Controller
 {
@@ -21,19 +22,16 @@ class EditProfileController extends Controller
         $img_path = $request->file('image')->store('image_upload', 'public');
         $userId = Auth::id();
 
-        DB::table('users_profiles')->insert(
-            [
-                'name' => $name,
-                'surname' => $surname,
-                'patronymic' => $patronymic,
-                'birthday' => $birthday,
-                'status' => $status,
-                'avatar_img' => $img_path,
-                'user_id' => $userId
-            ]
-        );
+        UsersProfile::updateOrCreate(['user_id' => $userId], [
+            'name' => $name,
+            'surname' => $surname,
+            'patronymic' => $patronymic,
+            'birthday' => $birthday,
+            'status' => $status,
+            'avatar_img' => $img_path,
+            'user_id' => $userId
+        ]);
 
         return redirect('social');
-//        return view('social')->with('avatar', $img_path);
     }
 }
