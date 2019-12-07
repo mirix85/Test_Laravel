@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eaec2275-fc0d-4caf-8ac7-c11897c70e4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EditProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EditProfileController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/social.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/social.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SocialController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SocialController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +179,9 @@
       <workItem from="1574971824157" duration="64000" />
       <workItem from="1574971913630" duration="321000" />
       <workItem from="1575573916305" duration="263000" />
-      <workItem from="1575658050881" duration="8767000" />
+      <workItem from="1575658050881" duration="8916000" />
+      <workItem from="1575741852518" duration="3435000" />
+      <workItem from="1575746754433" duration="480000" />
     </task>
     <servers />
   </component>
@@ -207,9 +206,9 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="432" y="163" key="#Notifications/0.0.1680.1010/1680.33.1280.984@0.0.1680.1010" timestamp="1574971855070" />
-    <state x="520" y="232" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1574971880704">
+    <state x="520" y="232" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575746727247">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="520" y="232" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1010/1680.33.1280.984@0.0.1680.1010" timestamp="1574971880704" />
+    <state x="520" y="232" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1010/1680.33.1280.984@0.0.1680.1010" timestamp="1575746727247" />
   </component>
 </project>
