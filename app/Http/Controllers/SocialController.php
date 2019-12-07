@@ -10,10 +10,10 @@ class SocialController extends Controller
 {
     public function show()
     {
-        $userProfile = UsersProfile::where('user_id', 1)->value('user_id');
+        $userProfile = UsersProfile::where('user_id', Auth::id())->value('user_id');
 
         if (!empty($userProfile)) {
-            foreach (UsersProfile::where('user_id', 1)->get() as $userData) {
+            foreach (UsersProfile::where('user_id', Auth::id())->get() as $userData) {
                 return view('/social')->with([
                     'name' => $userData->name,
                     'surname' => $userData->surname,

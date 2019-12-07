@@ -4,6 +4,7 @@
     <list default="true" id="eaec2275-fc0d-4caf-8ac7-c11897c70e4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SocialController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SocialController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/social.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/social.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +182,7 @@
       <workItem from="1575573916305" duration="263000" />
       <workItem from="1575658050881" duration="8916000" />
       <workItem from="1575741852518" duration="3435000" />
-      <workItem from="1575746754433" duration="480000" />
+      <workItem from="1575746754433" duration="2059000" />
     </task>
     <servers />
   </component>
