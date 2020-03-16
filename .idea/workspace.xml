@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eaec2275-fc0d-4caf-8ac7-c11897c70e4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SocialController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SocialController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/social.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/social.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,11 +119,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -182,7 +181,19 @@
       <workItem from="1575573916305" duration="263000" />
       <workItem from="1575658050881" duration="8916000" />
       <workItem from="1575741852518" duration="3435000" />
-      <workItem from="1575746754433" duration="2059000" />
+      <workItem from="1575746754433" duration="2198000" />
+      <workItem from="1575823739649" duration="590000" />
+      <workItem from="1583259303143" duration="137000" />
+      <workItem from="1583259594287" duration="85000" />
+      <workItem from="1583259700368" duration="630000" />
+      <workItem from="1583260344842" duration="340000" />
+      <workItem from="1583260700221" duration="238000" />
+      <workItem from="1583260951831" duration="469000" />
+      <workItem from="1583261447858" duration="6000" />
+      <workItem from="1584300499074" duration="782000" />
+      <workItem from="1584303092454" duration="720000" />
+      <workItem from="1584303862682" duration="148000" />
+      <workItem from="1584379411309" duration="2573000" />
     </task>
     <servers />
   </component>
@@ -207,9 +218,13 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="432" y="163" key="#Notifications/0.0.1680.1010/1680.33.1280.984@0.0.1680.1010" timestamp="1574971855070" />
-    <state x="520" y="232" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575746727247">
+    <state x="520" y="232" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583259424744">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="520" y="232" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1010/1680.33.1280.984@0.0.1680.1010" timestamp="1575746727247" />
+    <state x="520" y="232" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1010/1680.33.1280.984@0.0.1680.1010" timestamp="1583259424744" />
+    <state x="483" y="141" width="998" height="726" key="SettingsEditor" timestamp="1583261324547">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="483" y="141" width="998" height="726" key="SettingsEditor/0.0.1680.1010/1680.33.1280.984@0.0.1680.1010" timestamp="1583261324547" />
   </component>
 </project>

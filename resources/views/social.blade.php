@@ -89,15 +89,15 @@
         </div>
     </section>
 
-    <section id="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="footer d-flex align-items-center justify-content-center">
-                    <p>footer...</p>
-                </div>
-            </div>
-        </div>
-    </section>
+{{--    <section id="footer">--}}
+{{--        <div class="container-fluid">--}}
+{{--            <div class="row">--}}
+{{--                <div class="footer d-flex align-items-center justify-content-center">--}}
+{{--                    <p>footer...</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
